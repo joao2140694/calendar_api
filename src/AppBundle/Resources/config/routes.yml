@@ -1,0 +1,11 @@
+candidate:
+    resource: 'AppBundle\Controller\Api\CandidateController'
+    type: rest
+    name_prefix: api_candidate333_
+    prefix: /candidate
+
+interviewer:
+    resource: 'AppBundle\Controller\Api\InterviewerController'
+    type: rest
+    name_prefix: api_interviewer_
+    prefix: /interviewer
